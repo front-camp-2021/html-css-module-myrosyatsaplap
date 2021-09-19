@@ -1,0 +1,23 @@
+/* css variables start */
+:root {
+  --white: #ffffff;
+  --grey200: #ededed;
+  --grey400: #f9f9f9;
+  --purple: #6f64f8;
+  --black: #2c2c2c;
+}
+/* css variables end */
+
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--grey400);
+}
+
+button {
+  border: none;
+  outline: none;
+}
