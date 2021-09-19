@@ -1,0 +1,121 @@
+.card {
+  background: var(--white);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-body {
+  padding: 30px 20px 20px 20px;
+}
+
+.card-img-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.card-img {
+  display: block;
+  max-width: 100%;
+}
+
+.card-rating-and-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.card-rating {
+  background-color: var(--purple);
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  color: var(--white);
+  padding: 6px 10px;
+}
+
+.card-rating:hover {
+  cursor: pointer;
+}
+
+.card-price {
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--black);
+}
+
+.card-title {
+  margin-bottom: 3px;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--black);
+}
+
+.card-description {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--black);
+}
+
+/* =================== */
+.card-actions {
+  display: flex;
+}
+
+.card-button {
+  width: 50%;
+  height: 44px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-button:hover {
+  cursor: pointer;
+}
+
+.card-button.add-to-wishlist {
+  background: var(--grey200);
+}
+
+.card-button.add-to-cart {
+  color: var(--white);
+  background-color: var(--purple);
+}
+
+/* ====== icons ====== */
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-heart {
+  width: 18px;
+  height: 15px;
+  margin-right: 9px;
+  background-image: url("./assets/icon-heart.svg");
+}
+
+.icon-box {
+  width: 19px;
+  height: 18px;
+  background-image: url("./assets/icon-box.svg");
+  margin-right: 16px;
+}
+
+.icon-star {
+  width: 13px;
+  height: 12px;
+  background-image: url("./assets/icon-star.svg");
+  margin-left: 9px;
+}
