@@ -36,6 +36,11 @@
   color: var(--white);
   padding: 6px 10px;
 }
+
+.card-rating:hover {
+  cursor: pointer;
+}
+
 .card-price {
   font-size: 18px;
   line-height: 21px;
