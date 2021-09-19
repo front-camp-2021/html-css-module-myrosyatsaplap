@@ -1,7 +1,4 @@
 .card {
-  width: 400px; /* test */
-  margin: 50px; /* test */
-
   background: var(--white);
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
   border-radius: 8px;
